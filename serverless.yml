@@ -11,7 +11,7 @@ provider:
     LOGGING: true 
 
 functions:
-  hello:
+  tweet2es:
     handler: handler.tweet2es
     events:
       - schedule: rate(1 minute)
